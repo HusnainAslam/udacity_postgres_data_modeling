@@ -30,6 +30,7 @@ _songplay_id_ is the primary key. And it is only column which identifies songpla
 - last_name TEXT NOT NULL ,
 - gender TEXT NOT NULL ,
 - level TEXT NOT NULL 
+
 _user_id_ is primary key and due to bigserial data type, database add it automatically. So there is no need to pass user_id while inserting user.
         
 **songs**  - songs in music database
